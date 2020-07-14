@@ -31,7 +31,7 @@ async def amireallyalive(alive):
          cat_caption += f"**cat🐱 is always with you, my master!\n**"
          cat_caption += f"☞My peru Master: {DEFAULTUSER}\n"
          cat_caption += f"☞uptime : `{uptime}\n`"
-         cat_caption +=	f"☞**Click **[here](https://github.com/sandy1709/catuserbot) to deply catuserbot"
+         cat_caption +=	f"☞**Click **[here](https://t.me/AlpineProton) to check our ot group"
          await borg.send_file(alive.chat_id, CAT_IMG, caption=cat_caption, reply_to=reply_to_id)
          await alive.delete()
     else:
@@ -43,7 +43,7 @@ async def amireallyalive(alive):
                          "**cat🐱 is always with you, my master!\n**"
                          f"☞My peru Master: {DEFAULTUSER}\n"
                          f"☞uptime : `{uptime}\n`"
-                         f"☞**Click **[here](https://github.com/sandy1709/catuserbot) to deply catuserbot"
+                         f"☞**Click **[here](https://t.me/AlpineProton) to check our ot group"
                         )         
 
 @borg.on(sudo_cmd(pattern="sudo", allow_sudo=True))
